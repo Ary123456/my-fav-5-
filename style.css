@@ -1,0 +1,44 @@
+img {
+    border-radius: 250%;
+    width: 500px;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(#ff0000, #ff6f00, #ffea00, #79e809, #0088ff, #b300ff);
+}
+}
+
+.links:hover{
+    background-color: black;
+}
+
+button {
+    width: 300;
+    height: 100;
+    background: cyan;
+
+}
+
+#mypic{
+    transition: transform .2s;
+    height: 500px;
+    width: 600px;
+    border-radius: 0% !important;
+}
+
+#mypic2{
+    transition: transform .2s;
+    height: 500px;
+    width: 600px;
+    border-radius: 0% !important;
+    margin-left: 30px;
+}
+
+#mypic:hover{
+    transform: scale(0.9);
+}
+
+#mypic2:hover{
+    transform: scale(0.9);
+}
